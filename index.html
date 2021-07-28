@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="Description" content="Enter your description here" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title>Extending Bootstrap</title>
+</head>
+
+<body>
+
+  <!-- create and apply a custom class name "custom-navbar" -->
+  <nav class="navbar navbar-expand-lg custom-navbar">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbar">
+      <div class="navbar-nav ml-auto">
+        <a class="nav-item nav-link" href="#">Home</a>
+        <a class="nav-item nav-link" href="#">Features</a>
+        <a class="nav-item nav-link" href="#">Pricing</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- create an apply a custom class name "custom-jumbotron" -->
+  <section class="jumbotron jumbotron-fluid custom-jumbotron">
+    <div class="container">
+      <h1>
+        Welcome to the site!
+      </h1>
+      <p class="lead">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda optio expedita consequuntur odio nostrum
+        alias id eius distinctio, quaerat ullam mollitia error aliquam sunt delectus molestias autem rerum dignissimos
+        quidem.
+      </p>
+
+      <button class="btn btn-lg custom-btn">
+        Learn more!
+      </button>
+    </div>
+</section>
+    <section>
+        <div class="container row row-cols-1 row-cols-md-3">
+            <div class="col mb-4 card-whole">
+                <div class="card h-100 ">
+                    <div class="card-container-overlay">
+                        <img src="./assets/images/cheesy_puffs_dino_challenge.PNG" class="card-img-top image-1" alt="...">
+                        <div class="overlay">
+                            <div class="text">Hello World</div>
+                        </div>
+                    </div>
+                    <div class="card-body mb-0">
+                        <h4 class="card-title text-center"><a class="text-link" href="" >Project1</a></h5>
+                        <!-- <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
+                    </div>
+                    <div class="card-footer text-center bg-white mb-0">
+                        <ul class="list-inline">
+                            <li class="list-inline-item"><span class ="badge badge-pill badge-info">HTML</span></li>
+                            <li class="list-inline-item"><span class ="badge badge-pill badge-info">CSS</span></li>
+                            <li class="list-inline-item"><span class ="badge badge-pill badge-info">Javascript</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="col mb-4">
+                <div class="card h-100">
+                    <img src="./assets/images/cheesy_puffs_dino_challenge.PNG" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a short card.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card h-100">
+                    <img src="./assets/images/cheesy_puffs_dino_challenge.PNG" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card h-100">
+                    <img src="./assets/images/cheesy_puffs_dino_challenge.PNG" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> 
+  
+
+
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+</html>
