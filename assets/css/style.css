@@ -1,4 +1,20 @@
-body { padding-top: 70px; }
+:root {
+    --pistachio: #a7ac38;
+    --white: #ffffff;
+    --moderate-yellow: #C4A53E;
+    --natural: #bd9c74;
+    
+  }
+
+
+body { 
+    padding-top: 70px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+ }
+
+.card{
+    border: 2px solid #a7ac38;
+}
 
 
 .card-whole .card-container-overlay{
@@ -18,7 +34,7 @@ body { padding-top: 70px; }
   height: 0%;
     
   transition: .5s ease;
-  background-color: #008CBA;
+   background-color: var(--natural);
 }
 
 .card-container-overlay .image-1{
@@ -29,9 +45,10 @@ body { padding-top: 70px; }
 
 .card-whole   :hover .overlay {
     height: 100%;
+    
 }
 .overlay .text {
-    color: white;
+    /* color: white; */
     font-size: 20px;
     position: absolute;
     top: 50%;
@@ -41,3 +58,62 @@ body { padding-top: 70px; }
     transform: translate(-50%, -50%);
     text-align: center;
   }
+
+   .card-img-top {
+    width: 100%;
+    height: 20vw;
+    object-fit: cover;
+} 
+
+ .card-middle{
+    /* border: 2px solid black; */
+    height:5vw;
+    background-color: var(--pistachio);
+    /* background-color: #a7ac38;
+background-color: #bd9c74;
+color:#bd9c74 ; */
+ } 
+
+ .card-text-color{
+     color:red;
+ }
+
+ .resume-container{
+     background-color: var(--pistachio);
+     color:aliceblue;
+     padding-top: 5px;
+     padding-bottom: 5px;
+ }
+
+ /* .form-design{
+     background-color: aqua;
+ } */
+
+ .contact-form-container{
+     background-color: var(--pistachio);
+     border-radius: 15px;
+ }
+
+ .navbar-custom-design{
+     background-color: var(--pistachio);;
+      }
+
+.main-section-custom-design{
+background-color: var(--natural);
+}
+
+/* .cards-container-custom-design{
+    background-color: #c4a53e;
+} */
+.text-link{
+    color:white;
+   
+}
+
+.card-footer-custom-design{
+    background-color: #bd9c74;
+}
+
+.badge-custom-design{
+    background-color: var(--pistachio);
+}
