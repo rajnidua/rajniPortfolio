@@ -117,3 +117,59 @@ background-color: var(--natural);
 .badge-custom-design{
     background-color: var(--pistachio);
 }
+
+
+ /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 400px) { 
+    .card-img-top {
+        
+     height: 100vw;
+
+
+    } 
+    
+     .card-middle{
+       
+        height:15vw;
+        
+      
+     } 
+     .text-link{
+         font-size: smaller;
+         
+     }
+    
+
+ }
+
+ /* Small devices (landscape phones, less than 768px) */
+ @media (max-width: 767.98px) { 
+    .card-img-top {
+
+        height: 40vw;
+       
+    } 
+    
+     .card-middle{
+
+         height:10vw;
+       
+     } 
+ } 
+
+ /* Medium devices (tablets, less than 992px) */
+ @media (max-width: 991.98px) { 
+    .card-img-top {
+
+        height: 30vw;
+
+    } 
+    
+     .card-middle{
+        
+         height:7vw;
+       
+     } 
+ }
+
+ 
