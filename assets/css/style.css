@@ -8,12 +8,12 @@
 
 
 body { 
-    padding-top: 70px;
+    padding-top: 50px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
  }
 
 .card{
-    border: 2px solid #a7ac38;
+    border: 4px solid #bd9c74;
 }
 
 
@@ -35,6 +35,7 @@ body {
     
   transition: .5s ease;
    background-color: var(--natural);
+   color: white;
 }
 
 .card-container-overlay .image-1{
@@ -90,8 +91,10 @@ color:#bd9c74 ; */
  } */
 
  .contact-form-container{
+     margin-top: 100px;
      background-color: var(--pistachio);
      border-radius: 15px;
+     border : 6px solid var(--natural);
  }
 
  .navbar-custom-design{
@@ -112,15 +115,18 @@ background-color: var(--natural);
 
 .card-footer-custom-design{
     background-color: #bd9c74;
+    
 }
 
 .badge-custom-design{
     background-color: var(--pistachio);
+    color:white;
 }
 
 
 .footer-custom-design{
     background-color: var(--pistachio);
+    color: white;
 }
 
 .section-footer{
