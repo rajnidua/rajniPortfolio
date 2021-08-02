@@ -25,7 +25,7 @@ Then I recieve an email in the email.
 
 
 ## Screenshots
-![](./assets/images/ScreenShot1.png)
+![](./assets/images/Screen_shot_new.png)
 
 ![](./assets/images/ScreenShot2.png)
 
