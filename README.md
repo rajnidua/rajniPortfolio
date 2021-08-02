@@ -26,8 +26,12 @@ Then I recieve an email in the email.
 
 ## Screenshots
 ![](./assets/images/ScreenShot1.png)
+
 ![](./assets/images/ScreenShot2.png)
 
+
+## live URL
+https://rajnidua.github.io/rajniPortfolio/
 
 
 ## Lisence & copyright
