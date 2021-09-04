@@ -1,6 +1,6 @@
 var animatedFrontNames = document.getElementById("animatedFrontNames");
 var i = 0;
-var txt = "Browser Based Technologies : HTML CSS JAVASCRIPT JQUERY";
+var txt = "Browser Based Technologies : HTML, CSS, JAVASCRIPT, JQUERY";
 var speed = 70;
 
 typeWriter();
@@ -19,7 +19,7 @@ function typeWriter() {
     setTimeout(typeWriter, speed);
   } else {
     i = 0;
-    txt = "SERVER SIDE DEVELOPMENT : Node JS Express JS MYSQL2";
+    txt = "Server Side Development : NODE JS, EXPRESS JS, MYSQL2";
 
     typeWriterBackend();
   }
@@ -32,7 +32,7 @@ function typeWriterBackend() {
     setTimeout(typeWriterBackend, speed);
   } else {
     i = 0;
-    txt = "API INTERACTION : API JSON AJAX";
+    txt = "API Interaction : API JSON AJAX";
 
     typeWriterApi();
   }
