@@ -149,6 +149,12 @@ color:#bd9c74 ; */
   background-color: var(--cardSectionColor);
 }
 
+@media screen and (max-width: 800px) {
+  .overlay {
+    display: none;
+  }
+}
+
 /* @media (max-width: 540px) {
     .container {
       width: 500px;
